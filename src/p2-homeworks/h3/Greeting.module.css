@@ -1,0 +1,123 @@
+.someClass {
+
+}
+
+.error-class {
+    border: 1px solid red;
+    padding: 0px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 1px #999;
+}
+
+.error-text {
+    text-decoration-color: red;
+    color: red;
+    padding: 5px;
+}
+
+.input {
+    padding: 0px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.btn {
+    margin-left: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 8px;
+    border: solid 1px #080808;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    background-color: #fcfcfc;
+    background-image: -moz-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    background-image: -o-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    background-image: -ms-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#e0e0e0', GradientType=0);
+    background-image: linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    -webkit-box-shadow: 0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    -moz-box-shadow: 0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    box-shadow: 0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    opacity: 0.88;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=88);
+    filter: alpha(opacity=88);
+    -webkit-transition: with 0.78s ease;
+    -moz-transition: with 0.78s ease;
+    -o-transition: with 0.78s ease;
+    transition: with 0.78s ease;
+}
+
+.btn:hover{
+    margin-left: 5px;
+    padding:5px 8px;
+    border:solid 4px #a8a3a3;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius: 50px;
+    font:12px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#a19e9e;
+    background-image: -moz-linear-gradient(top, #a19e9e 0%, #313333 100%);
+    background-image: -webkit-linear-gradient(top, #a19e9e 0%, #313333 100%);
+    background-image: -o-linear-gradient(top, #a19e9e 0%, #313333 100%);
+    background-image: -ms-linear-gradient(top, #a19e9e 0% ,#313333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313333', endColorstr='#313333',GradientType=0 );
+    background-image: linear-gradient(top, #a19e9e 0% ,#313333 100%);
+    -webkit-box-shadow:0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    -moz-box-shadow: 0px 0px 2px #f2f2f2,  inset 0px 0px 1px #f2f2f2;
+    box-shadow:0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    opacity:0.88;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=88);
+    filter: alpha(opacity=88);
+    text-shadow: 1px 0px 0px #bababa;
+    filter: dropshadow(color=#bababa, offx=1, offy=0);}
+.btn:active{
+    margin-left: 5px;
+    padding:5px 8px;
+    border:solid 1px #080808;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius: 50px;
+    font:14px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background-color:#fcfcfc;
+    background-image: -moz-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    background-image: -o-linear-gradient(top, #fcfcfc 0%, #e0e0e0 100%);
+    background-image: -ms-linear-gradient(top, #fcfcfc 0% ,#e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#e0e0e0',GradientType=0 );
+    background-image: linear-gradient(top, #fcfcfc 0% ,#e0e0e0 100%);
+    -webkit-box-shadow:0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    -moz-box-shadow: 0px 0px 2px #f2f2f2,  inset 0px 0px 1px #f2f2f2;
+    box-shadow:0px 0px 2px #f2f2f2, inset 0px 0px 1px #f2f2f2;
+    opacity:0.88;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=88);
+    filter: alpha(opacity=88);
+}
+
+.btn_text {
+    text-align: center;
+
+}
+
+.usersnumber {
+  margin-left: 10px;
+}
+
+.usersName {
+    text-decoration:underline;
+font-weight: bold;
+}

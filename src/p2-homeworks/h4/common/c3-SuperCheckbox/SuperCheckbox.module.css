@@ -1,0 +1,34 @@
+.checkbox{
+    margin: 5px 5px 10px ;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+.checkbox:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+/* стили для чекбокса, находящегося в фокусе */
+.checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.checkbox:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.checkbox:disabled+label::before {
+    background-color: #e9ecef;
+}
+
+.spanClassName {
+
+}

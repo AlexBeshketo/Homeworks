@@ -1,0 +1,70 @@
+/*// input type - text //*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.input {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px ;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    display: block;
+    height: calc(2.0rem + 1px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+
+}
+
+
+.input:focus {
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+
+.superInput {
+    border: 1px solid #adadad;
+    border-radius: 0.25rem;
+    height: calc(2.0rem + 1px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.errorInput {
+
+    border: 1px solid #f87a7a;
+    border-radius: 0.25rem;
+    color: red;
+    height: calc(2.0rem + 1px);
+    background-color: #ffe2e2;
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.error {
+
+    color: red;
+
+}
