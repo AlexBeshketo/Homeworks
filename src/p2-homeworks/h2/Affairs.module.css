@@ -1,8 +1,15 @@
+.padding {
+    /*border: #080808 1px solid;*/
+    /*width: 280px*/
+}
+
 .main {
 
-    text-align: left;
+
 }
+
 .btn {
+
     display: inline-block;
     box-sizing: border-box;
     padding: 0 20px;
@@ -22,17 +29,21 @@
     appearance: none;
     touch-action: manipulation;
 }
+
 .btn:focus-visible {
     box-shadow: 0 0 0 3px lightskyblue;
 }
+
 .btn:hover {
     border-color: #65a3be;
     color: #4e879c;
 }
+
 .btn:active {
     border-color: #78a2b7 !important;
     color: #3a728b !important;
 }
+
 .btn:disabled {
     background-color: #eee;
     color: #444;
@@ -40,6 +51,7 @@
 }
 
 .btn2 {
+
     display: inline-block;
     box-sizing: border-box;
     padding: 0 10px;
@@ -59,21 +71,33 @@
     appearance: none;
     touch-action: manipulation;
 }
+
 .btn2:focus-visible {
+
     box-shadow: 0 0 0 3px #d0d0d0;
     color: #0e0e0e;
 }
+
 .btn2:hover {
+
     border-color: #3b3b3b;
 
     color: #0e0e0e;
 }
+
 .btn2:active {
+
     border-color: #1d1d1d !important;
     color: #3a728b !important;
 }
+
 .btn2:disabled {
+
     background-color: #eee;
     color: #444;
     pointer-events: none;
+}
+
+.priority {
+    color: #999999;
 }

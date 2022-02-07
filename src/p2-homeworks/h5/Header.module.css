@@ -1,0 +1,57 @@
+
+
+.link {
+    text-decoration: none;
+    color: #181818;
+    margin: 10px;
+
+
+}
+
+.link:hover {
+    color: #b1b0b0;
+
+}
+
+.active {
+    text-decoration: none;
+    color: #181818;
+
+
+    /*margin: 10px;*/
+}
+
+.box {
+
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin: 0px 10px;
+    background: #B74388;
+    position: relative;
+}
+.box:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -5px;
+    left: 100%;
+    border-width: 10px 0 10px 20px;
+    border-style: solid;
+    border-color: transparent #B74388;
+}
+
+.main {
+    display: flex;
+    width: 280px;
+    transition-duration: 500ms;
+    transform: translate(-240px);
+
+}
+.main:hover {
+
+    transition-duration: 500ms;
+    transform: translate(0px);
+
+}

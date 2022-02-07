@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 import p from './Affairs.module.css'
 
 export type AffairsPropsType = { // need to fix any
     data: any
-    setFilter: (filter:FilterType) => void
+    setFilter: (filter: FilterType) => void
     deleteAffairCallback: (arg0: number) => void
 }
 
@@ -28,7 +28,7 @@ function Affairs(props: AffairsPropsType) {
         setFilter('all')
     } // need to fix
     const setHigh = () => {
-setFilter('high')
+        setFilter('high')
     }
     const setMiddle = () => {
         setFilter('middle')
@@ -42,10 +42,10 @@ setFilter('high')
 
             {mappedAffairs}
 
-            <button className={p.btn} onClick={setAll}> All </button>
-            <button className={p.btn} onClick={setHigh}> High </button>
-            <button className={p.btn} onClick={setMiddle}> Middle </button>
-            <button className={p.btn} onClick={setLow}> Low </button>
+            <button className={p.btn} onClick={setAll}> All</button>
+            <button className={p.btn} onClick={setHigh}> High</button>
+            <button className={p.btn} onClick={setMiddle}> Middle</button>
+            <button className={p.btn} onClick={setLow}> Low</button>
         </div>
     )
 }

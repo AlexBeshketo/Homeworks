@@ -21,12 +21,17 @@ function Affair(props: AffairPropsType) {
     }// need to fix
 
     return (
+        <>
+            <div className={p.padding}>
         <div className={p.main}>
-            {props.name}
-
+           <span>  {props.name} </span>
+            <span className={p.priority}>{props.priority}</span>
 
             <button  className={p.btn2} onClick={deleteCallback}>X</button>
         </div>
+            </div>
+        </>
+
     )
 }
 
