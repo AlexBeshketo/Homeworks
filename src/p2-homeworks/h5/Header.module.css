@@ -49,9 +49,17 @@
     transform: translate(-240px);
 
 }
-.main:hover {
+/*.main:hover {*/
 
+/*    transition-duration: 500ms;*/
+/*    transform: translate(0px);*/
+
+/*}*/
+
+.main.active{
     transition-duration: 500ms;
     transform: translate(0px);
 
 }
+
+

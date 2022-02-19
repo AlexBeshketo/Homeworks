@@ -5,18 +5,22 @@ import {restoreState, saveState} from './localStorage/localStorage'
 
 function HW6() {
     const [value, setValue] = useState<string>('')
+    const [previousValue, setPreviousValue] = useState<string>('')
 
     const save = () => {
+        setPreviousValue(value)
         saveState<string>('editable-span-value', value)
+        saveState<string>('editable-span-previous',previousValue )
     }
     const restore = () => {
-        // setValue()
+      let newvalue =  restoreState<string>('editable-span-previous',value)
+        setValue(newvalue)
     }
 
     return (
         <div>
             <hr/>
-            homeworks 6
+            {/*homeworks 6*/}
 
             {/*should work (должно работать)*/}
             <div>
